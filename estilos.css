@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#informacion-usuario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.detalle-usuario {
+    margin-bottom: 20px;
+}
+
+.detalle-usuario h3 {
+    color: #333;
+}
+
+.detalle-usuario p {
+    margin-bottom: 10px;
+}
+
+
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos específicos para la sección de Servicios */
+#servicios {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.servicio {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.servicio h3 {
+    color: #ffcc00;
+}
+#inicio {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.destacado {
+    margin-top: 30px;
+}
+
+.destacado h3 {
+    color: #ffcc00;
+}
+
+.destacado ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.destacado li {
+    margin-bottom: 10px;
+}
+
+.cta {
+    margin-top: 30px;
+}
+
+.cta a {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+#soporte {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contacto,
+.faq,
+.chat {
+    margin-top: 30px;
+}
+
+.contacto h3,
+.faq h3,
+.chat h3 {
+    color: #ffcc00;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+.pregutas{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.letra{
+    color: black;
+}
+.letra2{
+    color:#ffcc00;
+}
+.cta-button{
+    color:#ffcc00;
+}

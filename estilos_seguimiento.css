@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#informacion-usuario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.detalle-usuario {
+    margin-bottom: 20px;
+}
+
+.detalle-usuario h3 {
+    color: #333;
+}
+
+.detalle-usuario p {
+    margin-bottom: 10px;
+}
+
+
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#mapa img {
+    width: 100%; 
+    height: auto; 
+}
+#informacion-camion {
+    flex: 1;
+}

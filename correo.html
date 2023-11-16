@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Otros enlaces a hojas de estilo, metaetiquetas, etc. -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo de Tu Empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="correo.html">Correo</a></li>
+                <li><a href="opciones.html">Opciones</a></li>
+                <li><a href="soporte.html">Soporte</a></li>
+                <li><a href="usuario.html">Usuario</a></li>
+                <!-- Puedes añadir más elementos al menú según tus necesidades -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="formulario-contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? ¡Déjanos saber!</p>
+
+            <form id="formulario" action="procesar_contacto.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <!-- Cambiado type de submit a button -->
+                <button type="button" onclick="enviarMensaje()">Enviar Mensaje</button>
+            </form>
+
+            <div id="respuesta-mensaje"></div>
+        </section>
+    </main>
+    <script src="contacto.js"></script>
+
+    <a href="index.html">Atras</a>>
+    <div id="responseMessage"></div>
+
+    <!-- Tus otros elementos -->
+</body>
+</html>
